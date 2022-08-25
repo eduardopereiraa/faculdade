@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  color: white;
+}
+
+form {
+  width: 400px;
+  height: 500px;
+  padding: 5px;
+  position: relative;
+
+  color: white;
+  background: rgb(27, 27, 27);
+
+  font-family: sans-serif;
+}
+
+.container-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  font-size: 12px;
+
+  height: 5%;
+  padding: 5px 10px;
+}
+
+.container-options {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.container-principal-menu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 15%;
+  padding: 10px;
+}
+
+.container-principal {
+  height: 95%;
+
+  position: relative;
+}
+
+.container-principal-menu-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container-principal-keywords {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.background-black {
+  background: rgb(10, 10, 10);
+}
+
+.background-blue {
+  background: rgb(29, 101, 255);
+}
+
+.container-principal-painel {
+  position: absolute;
+  top: 5;
+  right: 0;
+
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  height: 75%;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
